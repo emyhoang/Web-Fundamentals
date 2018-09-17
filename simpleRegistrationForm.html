@@ -1,52 +1,53 @@
 <form action="process.php" method="post">
-    <p>My Registration Form</p>
-
-    <label for="first_name">First Name:</label>
-    <input type="text" id="first_name" name="first_name">
-   
-    <label for="last_name">Last Name:</label>
-    <input type="text" id="last_name" name="last_name">
-   
-    <label for="email">Email:</label>
-    <input type="text" id="email" name="email">
-
-    <label for="password">Password:</label>
-    <input type="password" id="password" name="password">
-
-   <label for="pw_confirm">Password Confirmation:</label>
-   <input type="password" id="pw_confirm" name="password_confirmation">
-
-   <label for ="birthday">Birthday:</label>
-   <input type="text" id="birthday" name="birth_date">
     
-   <label for="male">Male</label>
-    <input type="radio" id="male" name="gender" value="male">
-   
-    <label for="female">Female</label>
-    <input type="radio" id="female" name="gender" value="female">
+        <h1>My Registration Form</h1>
+        <label for="first_name">First Name:</label>
+        <input type="text" id="first_name" name="first_name">
+    <br><br>
+        <label for="last_name">Last Name:</label>
+        <input type="text" id="last_name" name="last_name">
     
-    <label for="other">Others</label>
-    <input type="radio" id="other" name="other" value="decline">
+    <br><br>
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email">
+    
+    <br><br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password">
+    
+    <br><br>
+        <label for="pw_confirm">Password Confirmation:</label>
+        <input type="password" id="pw_confirm" name="password_confirmation">
+    
+    <br><br>
+        <label for ="birthday">Birthday:</label>
+        <input type="text" id="birthday" name="birth_date">
+        
+    <br><br>
+    <div>
+        <label for="male">Male</label>
+        <input type="radio" id="male" name="gender" value="male">
 
-    <p>A short description about yourself:</p>
-    <textarea name="description"></textarea>
-   
-    <p>Favorite Language:</p>
-    <label for="javascript">Javascript</label>
-    <input type="select" id="javascript" name="language" value="javascript">
-    
-    <label for="python">Python</label>
-    <input type="select" id="python" name="language" value="python">
-   
-    <label for="java">Java</label>
-    <input type="select" id="red" name="language" value="java">
-    
-    <label for="ruby">Ruby</label>
-    <input type="select" id="ruby" name="language" value="ruby">
-   
-    <label for="php">PHP</label>
-    <input type="select" id="php" name="language" value="php">
+        <label for="female">Female</label>
+        <input type="radio" id="female" name="gender" value="female">
 
-   <input type="submit" value="Click here to register">
+        <label for="other">Others</label>
+        <input type="radio" id="other" name="other" value="decline">
+
+    </div>
+    <div>
+        <p>A short description about yourself:</p>
+        <textarea name="description"></textarea>
+        <p>Favorite Language:</p>
+        <select name="languages">
+            <option value="javascript">Javascript</option>
+            <option value="python">Python</option>
+            <option value="java">Java</option>
+            <option value="ruby">Ruby</option>
+        </select>
+    </div>
+    <br>
+   <input type="submit" value="Submit">
 </form>
+
 
