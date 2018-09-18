@@ -4,51 +4,67 @@
    }
    #wrapper{
     width: 950px;
-    min-height:650px;
-    background-color: silver;
+    min-height:670px;
+    background-color:#000044;
     margin: 0px auto;
     padding-top: 25px;
    }
    #header{
-    min-height: 150px;
+    min-height: 50px;
     width: 900px;
-    background-color: green;
-    margin-left: 25px;
+    background-color: red;
+    margin-left: 20px;
+    border-radius: 10px;
+    color:whitesmoke;
+    font-size: 26px;
+    padding-top: 25px;
+    padding-left: 20px;
+    font-family: Verdana, Arial, Times;
    }
-   #navigation{
+
+   #side-bar{
     display: inline-block;
     vertical-align: top;
-    min-height: 300px;
+    min-height: 230px;
     width: 200px;
-    background-color: blue;
+    background-color: #2E7D8B;
+    border-radius: 10px;
+    opacity:0.8;
     margin-left: 25px;
     margin-top: 25px;
-    
+    color:#75E0C7;
+    padding-top: 25px;
+    padding-left: 10px;
 
    }
    #main_content{
     min-height: 450px;
-    width: 667px;
-    background-color: red;
+    width: 652px;
+    background-color: black;
     vertical-align: top;
     margin-left: 30px;
     display: inline-block;
     margin-top: 25px;
-    
+    color: whitesmoke;
+    padding-top: 25px;
+    padding-left: 15px;
+   }
+   
+   #footer {
+    min-height: 30px;
+    width: 895px;
+    background-color: grey;
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    color: whitesmoke;
+    padding-top: 10px;
+    padding-left: 20px;
+   }
+   a {
+    color: #75E0C7;
+    }
 
-   }
-   .subcontents{
-    min-height: 180px;
-    width: 200px;
-    background-color: yellow;
-    display: inline-block;
-    margin-top: 10px;
-    margin-left: 10px;
-   }
-   #advertisement{
-    min-height: 120px;
-    width: 628px;
-    background-color: purple;
-    margin-left: 10px;
-    margin-top: 40px;
-   }
+ul {
+  padding-left: 20px;
+}
